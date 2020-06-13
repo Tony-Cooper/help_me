@@ -1,0 +1,21 @@
+{
+    "name": "vendor/final",
+    "description": "This is graduate work",
+    "type": "project",
+    "license": "n",
+    "authors": [
+        {
+            "name": "Tony Cooper",
+            "email": "egor1812@i.ua"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    }
+}

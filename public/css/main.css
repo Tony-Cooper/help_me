@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+* {
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav {
+    font-size: 20px
+}
+
+.nav > a {
+    margin-left: 10px;
+    color: #8B8B8B;
+}
+
+.nav > a:hover {
+    color: #4C4C4C;
+    transition: 0.5s;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.header > .logo > img {
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+}
+
+form > input {
+    margin-top: 15px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.error {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #FF5858;
+}
+
+.success {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #5DFF58;
+}
+
+.btn {
+    margin-top: 15px;
+    background: #FF4C3D;
+    color: #fff;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+.singleLink {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    background: #FF4C3D;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.singleLink > p {
+    margin-bottom: 5px;
+}
+
+.singleLink > p > a {
+    color: #CDCDCD;
+}
+
+.singleLink > p > a:hover {
+    color: #D3B0B0;
+    transition: 0.5s;
+}
+
+.delButton {
+    background: white;
+    color: #000;
+    padding: 5px;
+    border-radius: 5px;
+    float: left;
+}
+
+.delButton:hover {
+    transition: 0.5s;
+    background: #D6ADAD;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #2D2C2D;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 50px;
+    align-items: center;
+}
+
+footer > span {
+    color: #fff;
+}
+
+footer > social {
+    display: flex;
+    flex-direction: row;
+}
+
+footer i {
+    color: #2D2C2D;
+    background: #BBBABB;
+    font-size: 30px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+footer a:hover i {
+    background: #FFE6E6;
+    transition: 0.5s;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+textarea {
+    resize: none;
+    margin-top: 15px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    height: 200px;
+    line-height: 25px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+h3 {
+    margin: 75px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.about {
+    font-size: 20px;
+    margin-bottom: 75px;
+}
+
+.notFound {
+    color: #BA3838;
+}
